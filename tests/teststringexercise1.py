@@ -47,7 +47,10 @@ class TestStringExercise1(unittest.TestCase):
     def test_combo_string_when_a_b_same_length(self):
         self.assertEqual('error', self.teststring.combo_string('abc', 'dfg'))
     def test_combo_string_when_both_empty(self):
-        self.assertEqual(None, self.teststring.combo_string('', ''))    
+        self.assertEqual(None, self.teststring.combo_string('', ''))   
+        
+    def test_first_half_when_even(self):
+        pass
     def tearDown(self):
         pass    
 # 

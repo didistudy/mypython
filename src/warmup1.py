@@ -64,4 +64,3 @@ def front3(str):
         str = str[0:front_end]*3
     else : str = str*3
     return str
-print(front3('ab'))
